@@ -36,7 +36,7 @@
       float: right;
       line-height: 100px;
     }
-      a.chat-user__action{
+      .chat-user__action{
         color: #FFFFFF;
       }
   }
@@ -89,7 +89,7 @@
       border: 2px solid #38AEF0;
       margin-top: 28px;
 
-      a.chat-header__edit-btn {
+      .chat-header__edit-btn {
         color: #38AEF0;
         padding: 0 20px;
         line-height: 40px;
@@ -130,7 +130,7 @@
     padding: 20px 40px;
     box-sizing: border-box;
 
-    input.chat-post__text {
+    .chat-post__text {
       height: 50px;
       width: calc(100% - 157px);
       float: left;
