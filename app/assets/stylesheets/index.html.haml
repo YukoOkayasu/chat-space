@@ -1,9 +1,9 @@
-%div.announce チャットグループが作成されました。
+.announce チャットグループが作成されました。
 
-%div.side-section
-  %div.chat-user
+.side-section
+  .chat-user
     %h5 Yuko
-    %div.chat-user__actions
+    .chat-user__actions
       %a.chat-user__action
         %i.fa.fa-edit.fa-lg
       %a.chat-user__action
@@ -15,14 +15,14 @@
     %li.chat-group__list
       %p.chat-group__name Sample
       %p.chat-group__comment よろしくお願いします
-%dv.chat-main
-  %div.chat-header
-    %dev.chat-header--left
+.chat-main
+  .chat-header
+    .chat-header--left
       %p.chat-header--group Sample
       %p.chat-header__users Member: Yuko neko
-    %div.chat-header--right
+    .chat-header--right
       %a.chat-header__edit-btn{href:'/'} Edit
-  %div.chat-body
+  .chat-body
     %ul.chat-comments
       %li.chat-comment
         %p.chat-comment__user Yuko
@@ -36,9 +36,9 @@
         %p.chat-comment__user Yuko
         %p.chat-comment__time 2019/01/07 00:00:00
         %p.chat-comment__message  hava a nice day!
-  %div.chat-post
+  .chat-post
     %input.chat-post__text{type: "text", name: "text", placeholder:"type a message"}
-      %div.chat-post__label
+      .chat-post__label
         %label
           %span.file-label
             %input#file{type: "file", name: "file"}
