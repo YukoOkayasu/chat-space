@@ -1,0 +1,105 @@
+.chat {
+  width: calc(100% - 300px);
+  .header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 0 40px;
+    .left-header {
+      float: left;
+      &__title {
+        color: #333;
+        font-size: 20px;
+        margin-top: 35px;
+      }
+      &__members {
+        color: $light_gray;
+        font-size: 12px;
+        margin-top: 15px;
+        .member {
+          display: inline-block;
+          padding-right: 5px;
+        }
+      }
+    }
+    .right-header {
+      border: 1px solid $light_blue;
+      color: $light_blue;
+      float: right;
+      height: 40px;
+      line-height: 40px;
+      margin-top: 28px;
+      padding: 0 20px;
+      &__button {
+        color: $light_blue;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .messages {
+    background-color: #FAFAFA;
+    box-sizing: border-box;
+    padding: 46px 40px 0;
+    height: calc(100% - 100px - 90px);
+    .message {
+      .upper-message {
+        display: flex;
+        &__user-name {
+          color: $black;
+          font-size: 16px;
+          font-weight: bold;
+        }
+        &__date {
+          color: $light_gray;
+          font-size: 12px;
+          padding-left: 10px;
+        }
+      }
+      .lower-message {
+        margin-top: 10px;
+        &__content {
+          color: $black;
+          font-size: 14px;
+          margin-bottom: 40px;
+        }
+      }
+    }
+  }
+
+  .post{
+    width: 100%;
+    height: 90px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    .post__text {
+      height: 50px;
+      width: calc(100% - 157px);
+      float: left;
+      border: none;
+      padding-left:10px;
+    }
+    .post__label {
+      float: left;
+      height: 50px;
+      line-height: 50px;
+      .file-label {
+        display: inline-block;
+        background-color: white;
+        padding-right: 10px;
+        .icon {
+          font-size: 20px;
+        }
+        .file {
+          display: none;
+        }
+      }
+    }
+  }
+  .send {
+    background-color: #38AEF0;
+    color: white;
+    line-height: 50px;
+    width: 100px;
+    margin-left: 15px;
+  }
+}
