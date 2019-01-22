@@ -5,10 +5,18 @@
   .header
     .left-header
       .left-header__title
+<<<<<<< HEAD
         = current_user.groups.name
       .left-header__members
         Member:
         .member
+=======
+        = @group.name
+      .left-header__members
+        Member:
+        .member
+          = current_user.name ,
+>>>>>>> master
           = user_session[:name]
     .right-header
       .right-header__button
