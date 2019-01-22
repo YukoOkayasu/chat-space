@@ -6,7 +6,7 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 30ms (Views: 12.7ms | ActiveRecord: 0.0ms)
 
 
-<<<<<<< HEAD
+
   [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8445024276154775190', 0);[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
@@ -100,7 +100,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 408ms (ActiveRecord: 7.2ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -120,7 +120,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233940235020'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -139,7 +139,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 84ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -159,7 +159,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233920877600'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -178,7 +178,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -198,7 +198,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233964990260'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -222,7 +222,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -242,7 +242,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233920204560'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -254,10 +254,9 @@ app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_htm
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (103.5ms)
 Started GET "/index" for 127.0.0.1 at 2019-01-11 20:10:58 +0900
-=======
 Started GET "/" for 127.0.0.1 at 2019-01-10 17:56:18 +0900
   [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
-  
+
 ActiveRecord::PendingMigrationError (
 
 Migrations are pending. To resolve this issue, run:
@@ -265,7 +264,7 @@ Migrations are pending. To resolve this issue, run:
         bin/rails db:migrate RAILS_ENV=development
 
 ):
-  
+
 activerecord (5.0.7.1) lib/active_record/migration.rb:573:in `check_pending!'
 activerecord (5.0.7.1) lib/active_record/migration.rb:549:in `call'
 actionpack (5.0.7.1) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
@@ -369,10 +368,9 @@ Completed 200 OK in 54ms (Views: 19.2ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/index" for 127.0.0.1 at 2019-01-11 17:34:07 +0900
->>>>>>> master
-  
+
 ActionController::RoutingError (No route matches [GET] "/index"):
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -401,7 +399,7 @@ puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-<<<<<<< HEAD
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
   Rendered collection of /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [19 times] (18.4ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (39.5ms)
@@ -421,7 +419,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -441,7 +439,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233943400180'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -453,9 +451,9 @@ app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_htm
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (104.7ms)
 Started GET "/message" for 127.0.0.1 at 2019-01-11 20:11:15 +0900
-  
+
 ActionController::RoutingError (No route matches [GET] "/message"):
-=======
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
   Rendered collection of /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [15 times] (45.5ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (25.6ms)
@@ -478,10 +476,9 @@ Migrating to DeviseCreateUsers (20190110085329)
   [1m[35m (49.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS `chat-space_development`[0m
   [1m[35m (0.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS `chat-space_test`[0m
 Started GET "/index" for 127.0.0.1 at 2019-01-11 17:47:23 +0900
-  
+
 ActionController::RoutingError (No route matches [GET] "/index"):
->>>>>>> master
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -510,7 +507,7 @@ puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
-<<<<<<< HEAD
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
   Rendered collection of /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [19 times] (5.3ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
@@ -525,7 +522,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -545,7 +542,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233913084540'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -564,7 +561,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: modules/user.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -584,7 +581,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233922398520'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -603,7 +600,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$light_blue".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -612,7 +609,7 @@ ActionView::Template::Error (Undefined variable: "$light_blue".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/flash.scss:3
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233960661060'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -631,7 +628,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 117ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$light_blue".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -640,7 +637,7 @@ ActionView::Template::Error (Undefined variable: "$light_blue".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_flash.scss:3
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233943376420'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -659,7 +656,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 108ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$light_blue".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -668,7 +665,7 @@ ActionView::Template::Error (Undefined variable: "$light_blue".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_flash.scss:3
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233912778280'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -687,7 +684,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 59ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$light_blue".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -696,7 +693,7 @@ ActionView::Template::Error (Undefined variable: "$light_blue".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/_flash.scss:3
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233963566360'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -715,7 +712,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 84ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -735,7 +732,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233921107460'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -754,7 +751,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 66ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -774,7 +771,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233920415920'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -793,7 +790,7 @@ Processing by Devise::SessionsController#new as HTML
 Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: font-awesome.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -813,7 +810,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:2
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___403952051119195138_70233969615040'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -875,9 +872,9 @@ Processing by MessagesController#index as HTML
 Completed 406 Not Acceptable in 168ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActionController::UnknownFormat (MessagesController#index is missing a template for this request format and variant.
-=======
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
   Rendered collection of /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb [16 times] (5.0ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
@@ -885,9 +882,9 @@ ActionController::UnknownFormat (MessagesController#index is missing a template 
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (157.5ms)
 Started GET "/index" for 127.0.0.1 at 2019-01-11 17:47:26 +0900
-  
+
 ActionController::RoutingError (No route matches [GET] "/index"):
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -927,15 +924,14 @@ Processing by ChatsController#index as HTML
 Completed 406 Not Acceptable in 164ms (ActiveRecord: 0.0ms)
 
 
-  
+
 ActionController::UnknownFormat (ChatsController#index is missing a template for this request format and variant.
->>>>>>> master
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.7.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.7.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.7.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -1013,7 +1009,7 @@ puma (3.12.0) lib/puma/server.rb:332:in `block in run'
 puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
-<<<<<<< HEAD
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
@@ -1028,7 +1024,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 42ms (ActiveRecord: 7.0ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1040,7 +1036,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1062,7 +1058,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.6ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1074,7 +1070,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1096,7 +1092,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1108,7 +1104,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1130,7 +1126,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.6ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1142,7 +1138,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1172,7 +1168,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.3ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1184,7 +1180,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1214,7 +1210,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1226,7 +1222,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1248,7 +1244,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1260,7 +1256,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1282,7 +1278,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1294,7 +1290,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1317,7 +1313,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 66ms (ActiveRecord: 4.0ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -1329,7 +1325,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:50: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:8: syntax error, unexpected ')'
 app/views/messages/index.html.haml:11: syntax error, unexpected ')'
 app/views/messages/index.html.haml:47: syntax error, unexpected keyword_ensure, expecting keyword_end
@@ -1718,7 +1714,7 @@ FOREIGN KEY (`user_id`)
   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190111120722')[0m
   [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
-=======
+
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
@@ -1760,13 +1756,12 @@ Migrating to AddDeviseToUsers (20190111084917)
   [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('8445024276154775190', 0);[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
->>>>>>> master
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8445024276154775190')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
-<<<<<<< HEAD
+
   [1m[35m (3.2ms)[0m  [1m[35mSHOW CREATE TABLE `group_users`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `groups`[0m
   [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'groups'[0m
@@ -1839,9 +1834,9 @@ Completed 200 OK in 48ms (Views: 39.0ms | ActiveRecord: 2.4ms)
 
 
 Started GET "/" for 127.0.0.1 at 2019-01-11 21:32:49 +0900
-  
+
 AbstractController::ActionNotFound (The action 'index' could not be found for GroupsController):
-  
+
 actionpack (5.0.7.1) lib/abstract_controller/base.rb:121:in `process'
 actionview (5.0.7.1) lib/action_view/rendering.rb:30:in `process'
 actionpack (5.0.7.1) lib/action_controller/metal.rb:190:in `dispatch'
@@ -1916,9 +1911,9 @@ Completed 200 OK in 38ms (Views: 33.4ms | ActiveRecord: 0.6ms)
 
 
 Started POST "/chat_groups" for 127.0.0.1 at 2019-01-11 21:34:55 +0900
-  
+
 ActionController::RoutingError (No route matches [POST] "/chat_groups"):
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -1954,9 +1949,9 @@ puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (152.5ms)
 Started POST "/chat_groups" for 127.0.0.1 at 2019-01-11 21:59:36 +0900
-  
+
 ActionController::RoutingError (No route matches [POST] "/chat_groups"):
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -2007,14 +2002,14 @@ Processing by GroupsController#new as HTML
 Completed 406 Not Acceptable in 181ms (ActiveRecord: 1.3ms)
 
 
-  
+
 ActionController::UnknownFormat (GroupsController#new is missing a template for this request format and variant.
 
 request.formats: ["text/html"]
 request.variant: []
 
 NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
-  
+
 actionpack (5.0.7.1) lib/action_controller/metal/implicit_render.rb:56:in `default_render'
 actionpack (5.0.7.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
 actionpack (5.0.7.1) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
@@ -2255,12 +2250,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 39ms (ActiveRecord: 8.8ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2280,12 +2275,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.2ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2305,12 +2300,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.3ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2330,12 +2325,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.3ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2355,12 +2350,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 148ms (ActiveRecord: 59.5ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2417,7 +2412,7 @@ Migrating to RemoveMessageFromimage (20190112030701)
   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[35mSQL (20.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20190112030701')[0m
   [1m[35m (14.0ms)[0m  [1m[35mCOMMIT[0m
-=======
+
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
@@ -2433,12 +2428,11 @@ Migrating to RemoveMessageFromimage (20190112030701)
   [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT GET_LOCK('8445024276154775190', 0);[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
->>>>>>> master
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
   [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8445024276154775190')[0m
-<<<<<<< HEAD
+
   [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `group_users`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `groups`[0m
@@ -2460,9 +2454,7 @@ Migrating to RemoveMessageFromimage (20190112030701)
   [1m[35m (0.3ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'groups'[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `messages`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'messages'[0m
-=======
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
->>>>>>> master
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT DATABASE() as db[0m
@@ -2473,7 +2465,7 @@ Migrating to RemoveMessageFromimage (20190112030701)
   [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8445024276154775190')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
-<<<<<<< HEAD
+
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `group_users`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `groups`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'groups'[0m
@@ -2618,12 +2610,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 107ms (ActiveRecord: 10.3ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/messages/index.html.haml:48: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:51: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -2642,15 +2634,15 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.9ms)
 
 
-  
+
 ActionView::Template::Error (Missing partial shared/_side_bar with {:locale=>[:ja], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder, :haml]}. Searched in:
   * "/Users/yukookayasu/projects/chat-space/app/views"
   * "/Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/devise-4.5.0/app/views"
 ):
     1: .wrapper
-    2: 
+    2:
     3:   = render 'shared/side_bar'
-  
+
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354568807240'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -2669,12 +2661,12 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 41ms (ActiveRecord: 7.7ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354567282520'
@@ -2695,12 +2687,12 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 34ms (ActiveRecord: 1.1ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354595445360'
@@ -2721,12 +2713,12 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 138ms (ActiveRecord: 24.0ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354569201740'
@@ -2747,12 +2739,12 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/shared/_side_bar.html.haml:21: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/shared/_side_bar.html.haml:24: syntax error, unexpected end-of-input, expecting keyword_end
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354593616480'
@@ -2773,7 +2765,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
      7:         = link_to new_group_path do
      8:           %i.fa.fa-edit.fa-lg
@@ -2782,7 +2774,7 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"us
     11:           = fa_icon 'cog', class: 'icon'
     12:   .groups
     13:     .group
-  
+
 app/views/shared/_side_bar.html.haml:10:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354609736700'
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354609806780'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2802,7 +2794,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 144ms (ActiveRecord: 107.8ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
      7:         = link_to new_group_path do
      8:           %i.fa.fa-edit.fa-lg
@@ -2811,7 +2803,7 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"us
     11:           = fa_icon 'cog', class: 'icon'
     12:   .groups
     13:     .group
-  
+
 app/views/shared/_side_bar.html.haml:10:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354564512140'
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354560360500'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2831,7 +2823,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 0.7ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
      7:         = link_to new_group_path do
      8:           %i.fa.fa-edit.fa-lg
@@ -2840,7 +2832,7 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"us
     11:           %i.fa.fa-edit.fa-lg
     12:   .groups
     13:     .group
-  
+
 app/views/shared/_side_bar.html.haml:10:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354611466640'
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354611551020'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2860,7 +2852,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
      7:         = link_to new_group_path do
      8:           = fa_icon 'pencil-square-o', class: 'icon'
@@ -2869,7 +2861,7 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"us
     11:           = fa_icon 'cog', class: 'icon'
     12:   .groups
     13:     .group
-  
+
 app/views/shared/_side_bar.html.haml:10:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354613685640'
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354574260640'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2889,7 +2881,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 33ms (ActiveRecord: 4.9ms)
 
 
-  
+
 ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"users"} missing required keys: [:id]):
      7:         = link_to new_group_path do
      8:           = fa_icon 'pencil-square-o', class: 'icon'
@@ -2898,7 +2890,7 @@ ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"us
     11:           = fa_icon 'cog', class: 'icon'
     12:   .groups
     13:     .group
-  
+
 app/views/shared/_side_bar.html.haml:10:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354568351880'
 app/views/groups/index.html.haml:3:in `_app_views_groups_index_html_haml__2279541309644957631_70354594497240'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -2919,14 +2911,14 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 166ms (ActiveRecord: 35.7ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `show_last_messagev' for #<Group:0x007ff966e25c90>
 Did you mean?  show_last_message):
     16:           .group__name
     17:             = group.name
     18:           .group__message
     19:             = group.show_last_messagev
-  
+
 app/views/shared/_side_bar.html.haml:19:in `block (2 levels) in _app_views_shared__side_bar_html_haml___1519115058951938195_70354609967600'
 app/views/shared/_side_bar.html.haml:15:in `block in _app_views_shared__side_bar_html_haml___1519115058951938195_70354609967600'
 app/views/shared/_side_bar.html.haml:14:in `_app_views_shared__side_bar_html_haml___1519115058951938195_70354609967600'
@@ -2998,7 +2990,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.9ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: modules/side_bar.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -3020,7 +3012,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:7
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2423924409907259831_70354616883740'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3042,7 +3034,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 41ms (ActiveRecord: 1.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "..."modules/chat";": expected selector or at-rule, was "}"):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -3051,7 +3043,7 @@ ActionView::Template::Error (Invalid CSS after "..."modules/chat";": expected se
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:13
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2423924409907259831_70354626380440'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3073,7 +3065,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.9ms)
 
 
-  
+
 ActionView::Template::Error (File to import not found or unreadable: modules/side_bar.
 Load paths:
   /Users/yukookayasu/projects/chat-space/app/assets/config
@@ -3095,7 +3087,7 @@ Load paths:
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/application.scss:7
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2423924409907259831_70354614745620'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -3117,7 +3109,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 207ms (ActiveRecord: 1.2ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$side_header_font".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -3126,7 +3118,7 @@ ActionView::Template::Error (Undefined variable: "$side_header_font".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_side_bar.scss:12
 app/assets/stylesheets/application.scss:7
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___2423924409907259831_70354567683700'
@@ -3150,7 +3142,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 613ms (ActiveRecord: 37.3ms)
 
 
-  
+
 ActionView::Template::Error (Undefined variable: "$side_header_font".):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -3159,7 +3151,7 @@ ActionView::Template::Error (Undefined variable: "$side_header_font".):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_side_bar.scss:12
 app/assets/stylesheets/application.scss:7
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml__2921534953664422780_70109191627540'
@@ -3182,7 +3174,7 @@ Processing by GroupsController#index as HTML
 Completed 500 Internal Server Error in 189ms (ActiveRecord: 0.9ms)
 
 
-  
+
 ActionView::Template::Error (Undefined mixin 'flexbox'.):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -3191,7 +3183,7 @@ ActionView::Template::Error (Undefined mixin 'flexbox'.):
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_chat.scss:15:in `flexbox'
 app/assets/stylesheets/modules/_chat.scss:15
 app/assets/stylesheets/application.scss:8
@@ -3226,13 +3218,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 3.3ms)
 
 
-  
+
 ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
     1:   .chat-post
     2:     = form_for [@group, @message] do |f|
     3:       = f.text_field :content, class: 'form__message', placeholder: 'type a message'
     4:       .chat-post__label
-  
+
 app/views/messages/index.html.haml:1
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3252,13 +3244,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
     1:   .chat-post
     2:     = form_for [@group, @message] do |f|
     3:       = f.text_field :content, class: 'form__message', placeholder: 'type a message'
     4:       .chat-post__label
-  
+
 app/views/messages/index.html.haml:1
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3278,7 +3270,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.6ms)
 
 
-  
+
 ActionView::Template::Error (Inconsistent indentation: 7 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
     2:   = form_for [@group, @message] do |f|
     3:     = f.text_field :content, class: 'form__message', placeholder: 'type a message'
@@ -3287,7 +3279,7 @@ ActionView::Template::Error (Inconsistent indentation: 7 spaces used for indenta
     6:         %span.file-label
     7:           = f.file_field :image, class: 'file'
     8:           %i.fa.fa-image.fa-lg
-  
+
 app/views/messages/index.html.haml:5
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3578,13 +3570,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
     1:  = render 'shared/side_bar'
-    2: 
+    2:
     3: .form
     4:   = form_for [@group, @message] do |f|
-  
+
 app/views/messages/index.html.haml:1
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3604,14 +3596,14 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.5ms)
 
 
-  
+
 ActionView::Template::Error (Inconsistent indentation: 3 spaces used for indentation, but the rest of the document was indented using 2 spaces.):
      7:         = f.file_field :image, class: 'hidden'
      8:     = f.submit 'Send', class: 'form__submit'
-     9: 
+     9:
     10:    .messages
     11:       = render @messages
-  
+
 app/views/messages/index.html.haml:10
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -3660,13 +3652,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 40ms (ActiveRecord: 1.6ms)
 
 
-  
+
 ActionView::Template::Error (Indenting at the beginning of the document is illegal.):
     1:   .chat-body
     2:     %ul.comments
     3:       %li.comment
     4:         %p.comment__user
-  
+
 app/views/messages/_message.html.haml:1
 app/views/messages/index.html.haml:10:in `block in _app_views_messages_index_html_haml___2788375660053193438_70109229715240'
 app/views/messages/index.html.haml:2:in `_app_views_messages_index_html_haml___2788375660053193438_70109229715240'
@@ -3691,14 +3683,14 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.9ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/_message.html.haml:6: unknown type of %string
 ...e.created_at.strftime(“%Y/%m/%d %H:%M”)
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/_message.html.haml:6: syntax error, unexpected end-of-input
 ...e.created_at.strftime(“%Y/%m/%d %H:%M”)
 ...                               ^):
-  
+
 app/views/messages/_message.html.haml:6: unknown type of %string
 app/views/messages/_message.html.haml:6: syntax error, unexpected end-of-input
 app/views/messages/index.html.haml:10:in `block in _app_views_messages_index_html_haml___2788375660053193438_70109175164360'
@@ -3724,13 +3716,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.9ms)
 
 
-  
+
 ActionView::Template::Error (nil is not a valid asset source):
      8:     - if message.content.present?
      9:       %p.lower-message__content
     10:         = message.content
     11:     = image_tag message.image.url
-  
+
 app/views/messages/_message.html.haml:11:in `_app_views_messages__message_html_haml__1287580413153084091_70109202786160'
 app/views/messages/index.html.haml:10:in `block in _app_views_messages_index_html_haml___2788375660053193438_70109161351500'
 app/views/messages/index.html.haml:2:in `_app_views_messages_index_html_haml___2788375660053193438_70109161351500'
@@ -3743,9 +3735,9 @@ app/views/messages/index.html.haml:2:in `_app_views_messages_index_html_haml___2
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (106.2ms)
 Started GET "/groups" for 127.0.0.1 at 2019-01-16 17:28:07 +0900
-  
+
 ActionController::RoutingError (No route matches [GET] "/groups"):
-  
+
 actionpack (5.0.7.1) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
@@ -3840,13 +3832,13 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 30ms (ActiveRecord: 1.7ms)
 
 
-  
+
 ActionView::Template::Error (nil is not a valid asset source):
      8:     - if message.content.present?
      9:       %p.lower-message__content
     10:         = message.content
     11:     = image_tag message.image.url
-  
+
 app/views/messages/_message.html.haml:11:in `_app_views_messages__message_html_haml__1287580413153084091_70109222948920'
 app/views/messages/index.html.haml:10:in `block in _app_views_messages_index_html_haml___2788375660053193438_70109244613700'
 app/views/messages/index.html.haml:2:in `_app_views_messages_index_html_haml___2788375660053193438_70109244613700'
@@ -4181,7 +4173,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 352ms (ActiveRecord: 3.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x007fa94517b920>:0x007fa945e55bc8>
 Did you mean?  @message
                @messages):
@@ -4192,7 +4184,7 @@ Did you mean?  @message
     5:     .upper-message__date
     6:       = message.created_at.strftime("%Y/%m/%d %H:%M")
     7:   .lower-meesage
-  
+
 app/views/messages/_message.html.haml:4:in `_app_views_messages__message_html_haml__2588759135425410698_70182494999980'
 app/views/messages/index.html.haml:12:in `block in _app_views_messages_index_html_haml__1284401305012866906_70182499431200'
 app/views/messages/index.html.haml:4:in `_app_views_messages_index_html_haml__1284401305012866906_70182499431200'
@@ -4221,7 +4213,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 306ms (ActiveRecord: 2.1ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `message' for #<#<Class:0x007fa94517b920>:0x007fa945e61b08>
 Did you mean?  @message
                @messages):
@@ -4232,7 +4224,7 @@ Did you mean?  @message
     5:     .upper-message__date
     6:       = message.created_at.strftime("%Y/%m/%d %H:%M")
     7:   .lower-meesage
-  
+
 app/views/messages/_message.html.haml:4:in `_app_views_messages__message_html_haml__2588759135425410698_70182513629140'
 app/views/messages/index.html.haml:12:in `block in _app_views_messages_index_html_haml__1284401305012866906_70182499455680'
 app/views/messages/index.html.haml:4:in `_app_views_messages_index_html_haml__1284401305012866906_70182499455680'
@@ -4335,7 +4327,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 349ms (ActiveRecord: 4.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after ".": expected class name, was ""):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -4344,7 +4336,7 @@ ActionView::Template::Error (Invalid CSS after ".": expected class name, was "")
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_chat.scss:69
 app/assets/stylesheets/application.scss:8
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1132289441533462518_70182494545420'
@@ -4498,7 +4490,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 462ms (ActiveRecord: 4.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `group' for #<#<Class:0x007fa94517b920>:0x007fa9437a9b28>
 Did you mean?  @group):
      5:   .header
@@ -4508,7 +4500,7 @@ Did you mean?  @group):
      9:       .left-header__members
     10:         Member:
     11:         .member
-  
+
 app/views/messages/index.html.haml:8:in `_app_views_messages_index_html_haml__1284401305012866906_70182479157780'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4532,7 +4524,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.8ms)
 
 
-  
+
 ActionView::Template::Error (no implicit conversion of Symbol into Integer):
      5:   .header
      6:     .left-header
@@ -4541,7 +4533,7 @@ ActionView::Template::Error (no implicit conversion of Symbol into Integer):
      9:       .left-header__members
     10:         Member:
     11:         .member
-  
+
 app/views/messages/index.html.haml:8:in `_app_views_messages_index_html_haml__1284401305012866906_70182494612900'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4565,7 +4557,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 32ms (ActiveRecord: 1.2ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `group' for #<User:0x007fa948308c68>
 Did you mean?  groups
                groups=):
@@ -4576,7 +4568,7 @@ Did you mean?  groups
      9:       .left-header__members
     10:         Member:
     11:         .member
-  
+
 app/views/messages/index.html.haml:8:in `_app_views_messages_index_html_haml__1284401305012866906_70182499219300'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4602,7 +4594,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 244ms (ActiveRecord: 1.9ms)
 
 
-  
+
 ActionView::Template::Error (undefined local variable or method `user_ids' for #<#<Class:0x007fa94517b920>:0x007fa9470842b8>
 Did you mean?  user_session):
      9:       .left-header__members
@@ -4612,7 +4604,7 @@ Did you mean?  user_session):
     13:     .right-header
     14:       Edit
     15:       .right-header__button
-  
+
 app/views/messages/index.html.haml:12:in `_app_views_messages_index_html_haml__1284401305012866906_70182508963480'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4636,7 +4628,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.6ms)
 
 
-  
+
 ActionView::Template::Error (undefined method `name' for {}:Hash):
      9:       .left-header__members
     10:         Member:
@@ -4645,7 +4637,7 @@ ActionView::Template::Error (undefined method `name' for {}:Hash):
     13:     .right-header
     14:       Edit
     15:       .right-header__button
-  
+
 app/views/messages/index.html.haml:12:in `_app_views_messages_index_html_haml__1284401305012866906_70182478796760'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4722,7 +4714,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.5ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:17: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -4731,7 +4723,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.htm
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:29: syntax error, unexpected keyword_ensure, expecting ')'
 /Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:31: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/messages/index.html.haml:17: syntax error, unexpected ')'
 app/views/messages/index.html.haml:28: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/messages/index.html.haml:29: syntax error, unexpected keyword_ensure, expecting ')'
@@ -4772,11 +4764,11 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.6ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/messages/index.html.haml:16: syntax error, unexpected tINTEGER, expecting ')'
 ::Haml::Helpers.html_escape((( link_to /groups/1/edit
                                                 ^):
-  
+
 app/views/messages/index.html.haml:16: syntax error, unexpected tINTEGER, expecting ')'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4796,7 +4788,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.6ms)
 
 
-  
+
 ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
     13:     .right-header
     14:       .right-header__button
@@ -4805,7 +4797,7 @@ ActionView::Template::Error (Illegal nesting: nesting within plain text is illeg
     17: .messages
     18:   = render @messages
     19: .form
-  
+
 app/views/messages/index.html.haml:16
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
@@ -4879,13 +4871,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.4ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__524233741104088148_70182496017880'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__3245717277183370538_70182510605540'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5021,7 +5013,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 184ms (ActiveRecord: 2.0ms)
 
 
-  
+
 ActionView::Template::Error (Invalid CSS after "        color: ": expected expression (e.g. 1px, bold), was ";"):
     4:     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     5:     %title ChatSpace
@@ -5030,7 +5022,7 @@ ActionView::Template::Error (Invalid CSS after "        color: ": expected expre
     8:     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     9:   %body
    10:     = render 'layouts/notifications'
-  
+
 app/assets/stylesheets/modules/_side_bar.scss:37
 app/assets/stylesheets/application.scss:7
 app/views/layouts/application.html.haml:7:in `_app_views_layouts_application_html_haml___1132289441533462518_70182479139180'
@@ -5161,12 +5153,12 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.5ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:20: syntax error, unexpected keyword_ensure, expecting keyword_end
 ...:Util.html_safe(_erbout);ensure;@haml_buffer = @haml_buffer....
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:23: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/views/shared/_side_bar.html.haml:20: syntax error, unexpected keyword_ensure, expecting keyword_end
 app/views/shared/_side_bar.html.haml:23: syntax error, unexpected end-of-input, expecting keyword_end
 app/views/messages/index.html.haml:2:in `_app_views_messages_index_html_haml__1284401305012866906_70182448887140'
@@ -5189,7 +5181,7 @@ Processing by MessagesController#index as HTML
 Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.4ms)
 
 
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:16: syntax error, unexpected ')'
 )).to_s);).to_s);; _hamlout.bu...
  ^
@@ -5200,7 +5192,7 @@ SyntaxError (/Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.h
 ...uffer.upper if @haml_buffer;end;
 ...                               ^
 /Users/yukookayasu/projects/chat-space/app/views/shared/_side_bar.html.haml:23: syntax error, unexpected keyword_end, expecting ')'):
-  
+
 app/views/shared/_side_bar.html.haml:16: syntax error, unexpected ')'
 app/views/shared/_side_bar.html.haml:20: syntax error, unexpected keyword_ensure, expecting ')'
 app/views/shared/_side_bar.html.haml:20: syntax error, unexpected keyword_end, expecting ')'
@@ -5545,13 +5537,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 29ms (ActiveRecord: 1.1ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__524233741104088148_70182451019680'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__3245717277183370538_70182478989660'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5730,13 +5722,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__524233741104088148_70182461703260'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__3245717277183370538_70182516469060'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5757,13 +5749,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.3ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__524233741104088148_70182500143240'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__3245717277183370538_70182452190240'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5836,13 +5828,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 28ms (ActiveRecord: 6.6ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__524233741104088148_70182521739460'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__3245717277183370538_70182510188140'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -5947,13 +5939,13 @@ Processing by GroupsController#edit as HTML
 Completed 500 Internal Server Error in 37ms (ActiveRecord: 3.1ms)
 
 
-  
+
 ActionView::Template::Error (First argument in form cannot contain nil or be empty):
     1: = form_for group do |f|
     2:   - if group.errors.any?
     3:     .chat-group-form__errors
     4:       %h2= "#{group.errors.full_messages.count}件のエラーが発生しました。"
-  
+
 app/views/groups/_form.html.haml:1:in `_app_views_groups__form_html_haml__1102034942087437022_70218983145700'
 app/views/groups/edit.html.haml:3:in `_app_views_groups_edit_html_haml__1739870753693985870_70218990949080'
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
@@ -6780,10 +6772,10 @@ Completed 200 OK in 698ms (Views: 644.6ms | ActiveRecord: 20.6ms)
 
 
 Started GET "/groups/2/messages" for 127.0.0.1 at 2019-01-22 16:09:29 +0900
-  
+
 SyntaxError (/Users/yukookayasu/projects/chat-space/app/controllers/messages_controller.rb:15: syntax error, unexpected keyword_else, expecting keyword_end
 /Users/yukookayasu/projects/chat-space/app/controllers/messages_controller.rb:31: syntax error, unexpected end-of-input, expecting keyword_end):
-  
+
 app/controllers/messages_controller.rb:15: syntax error, unexpected keyword_else, expecting keyword_end
 app/controllers/messages_controller.rb:31: syntax error, unexpected end-of-input, expecting keyword_end
   Rendering /Users/yukookayasu/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
@@ -7211,7 +7203,7 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 67ms (Views: 54.3ms | ActiveRecord: 3.1ms)
 
 
-=======
+
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
   [1m[35m (0.2ms)[0m  [1m[34mSELECT DATABASE() as db[0m
@@ -7224,4 +7216,5 @@ Completed 200 OK in 67ms (Views: 54.3ms | ActiveRecord: 3.1ms)
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
   [1m[35m (0.1ms)[0m  [1m[35mSHOW CREATE TABLE `users`[0m
   [1m[35m (0.2ms)[0m  [1m[35mSHOW TABLE STATUS LIKE 'users'[0m
->>>>>>> master
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations`[0m
