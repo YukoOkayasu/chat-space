@@ -1,0 +1,16 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/image
+/tmp
+
+/node_modules
+/yarn-error.log
+
+.byebug_history
+public/uploads/*
