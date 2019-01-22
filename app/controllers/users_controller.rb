@@ -1,8 +1,11 @@
 class UsersController < ApplicationController
 
+<<<<<<< HEAD
   def index
   end
 
+=======
+>>>>>>> master
   def edit
   end
 
