@@ -45,12 +45,15 @@ $(function() {
       var html = buildHTML(data);
       $('.messages').append(html)
       $('.form__message').val('')
-      $('.form__submit').prop('disabled', false)
       $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
     })
     //通信失敗時の処理
     .fail(function() {
       alert('error');
+    })
+    //常にdisabledを消して送信ボタンを押せるようにする
+    .always(function() {
+      $('.form__submit').prop('disabled', false)
     })
   })
 });
