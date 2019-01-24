@@ -14,10 +14,10 @@
     .right-header
       .right-header__button
         = link_to 'Edit', edit_group_path(@group)
-  .messages{style: "overflow: auto;"}
+  .messages
     = render @messages
   .form
-    = form_for [@group, @message], id: "form__message" do |f|
+    = form_for [@group, @message],html:{id: "form__message"} do |f|
       = f.text_field :content, class: 'form__message', placeholder: 'type a message'
       .form__mask
         = f.label :image, class: 'form__mask__image' do
