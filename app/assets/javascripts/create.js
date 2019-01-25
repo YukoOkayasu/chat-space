@@ -26,7 +26,7 @@ $(function() {
                 </div>`
     return html;
   }
-  $('#form__message').on('submit', function(e) {
+  $('#new_message').on('submit', function(e) {
     //HTMlでの送信をキャンセル
     e.preventDefault();
     //送信
@@ -44,7 +44,7 @@ $(function() {
     .done(function(data) {
       var html = buildHTML(data);
       $('.messages').append(html)
-      $('#form__message')[0].reset()
+      $('#new_message')[0].reset()
       $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
     })
     //通信失敗時の処理
