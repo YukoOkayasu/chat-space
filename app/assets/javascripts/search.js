@@ -1,5 +1,4 @@
-document.addEventListener('turbolinks:load', function() {
-$(function() {
+$(document).on('turbolinks:load', function() {
 
 var searchList = $("#user-search-result");
 function appendUser(user) {
@@ -45,13 +44,12 @@ function removeUser(id, name) {
 
   $(document).on("click", ".chat-group-user__btn--add", function() {
     $(this).parent().remove();
-    var id = $(this).data('user-id')
-    var name = $(this).data('user-name')
-      removeUser(id, name)
+      var id = $(this).data('user-id')
+      var name = $(this).data('user-name')
+        removeUser(id, name)
   });
 
   $(document).on("click", ".js-remove-btn", function() {
     $(this).parent().remove();
   });
-});
 });

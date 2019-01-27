@@ -1,5 +1,5 @@
-document.addEventListener('turbolinks:load', function() {
-$(function() {
+$(document).on('turbolinks:load', function() {
+
   function buildHTML(message){
     if (message.image !== null) {
       img = `<image src="${message.image}" class="lower-message__image" >`
@@ -57,5 +57,4 @@ $(function() {
       $('.form__submit').prop('disabled', false)
     })
   })
-});
 });
