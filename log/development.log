@@ -8987,3 +8987,183 @@ Processing by GroupsController#new as HTML
 Completed 200 OK in 163ms (Views: 156.3ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/users?keyword=y" for 127.0.0.1 at 2019-01-27 17:19:04 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"y"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%y%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.9ms)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users?keyword=" for 127.0.0.1 at 2019-01-27 17:25:02 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>""}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (3.6ms)
+Completed 200 OK in 23ms (Views: 16.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-27 17:30:22 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GroupsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/index.html.haml within layouts/application
+  [1m[36mGroup Load (0.4ms)[0m  [1m[34mSELECT `groups`.* FROM `groups` INNER JOIN `group_users` ON `groups`.`id` = `group_users`.`group_id` WHERE `group_users`.`user_id` = 3[0m
+  Rendered shared/_side_bar.html.haml (56.8ms)
+  Rendered groups/index.html.haml within layouts/application (86.3ms)
+  Rendered layouts/_notifications.html.haml (1.9ms)
+Completed 200 OK in 473ms (Views: 426.6ms | ActiveRecord: 23.8ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2019-01-27 17:30:25 +0900
+Processing by GroupsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/new.html.haml within layouts/application
+  Rendered groups/_form.html.haml (29.6ms)
+  Rendered groups/new.html.haml within layouts/application (35.1ms)
+  Rendered layouts/_notifications.html.haml (2.0ms)
+Completed 200 OK in 94ms (Views: 68.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/users?keyword=oka" for 127.0.0.1 at 2019-01-27 17:30:29 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"oka"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%oka%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (6.2ms)
+Completed 200 OK in 40ms (Views: 19.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/groups" for 127.0.0.1 at 2019-01-27 17:30:31 +0900
+Processing by GroupsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qp14aSXJvY+1pr6280TCGt/WrVUCGkFdTitTtnFfE+dJTSmhfBA4oJL1ev/wlwbfoQOl6eeS0f7LYvUSLj2vkA==", "group"=>{"name"=>"グループ名", "user_ids"=>["1"]}, "chat_group"=>{"user_ids"=>["22"]}, "commit"=>"登録する"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO `groups` (`name`, `created_at`, `updated_at`) VALUES ('グループ名', '2019-01-27 08:30:31', '2019-01-27 08:30:31')[0m
+  [1m[35mSQL (8.4ms)[0m  [1m[32mINSERT INTO `group_users` (`group_id`, `user_id`, `created_at`, `updated_at`) VALUES (9, 1, '2019-01-27 08:30:31', '2019-01-27 08:30:31')[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 29ms (ActiveRecord: 11.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-27 17:30:31 +0900
+Processing by GroupsController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/index.html.haml within layouts/application
+  [1m[36mGroup Load (0.3ms)[0m  [1m[34mSELECT `groups`.* FROM `groups` INNER JOIN `group_users` ON `groups`.`id` = `group_users`.`group_id` WHERE `group_users`.`user_id` = 3[0m
+  Rendered shared/_side_bar.html.haml (6.3ms)
+  Rendered groups/index.html.haml within layouts/application (10.6ms)
+  Rendered layouts/_notifications.html.haml (2.6ms)
+Completed 200 OK in 52ms (Views: 44.9ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2019-01-27 17:30:33 +0900
+Processing by GroupsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/new.html.haml within layouts/application
+  Rendered groups/_form.html.haml (20.0ms)
+  Rendered groups/new.html.haml within layouts/application (25.4ms)
+  Rendered layouts/_notifications.html.haml (2.1ms)
+Completed 200 OK in 67ms (Views: 58.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-01-27 18:44:10 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by GroupsController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/index.html.haml within layouts/application
+  [1m[36mGroup Load (0.8ms)[0m  [1m[34mSELECT `groups`.* FROM `groups` INNER JOIN `group_users` ON `groups`.`id` = `group_users`.`group_id` WHERE `group_users`.`user_id` = 3[0m
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT  `messages`.* FROM `messages` WHERE `messages`.`group_id` = 10 ORDER BY `messages`.`id` DESC LIMIT 1[0m
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT  `messages`.* FROM `messages` WHERE `messages`.`group_id` = 12 ORDER BY `messages`.`id` DESC LIMIT 1[0m
+  Rendered shared/_side_bar.html.haml (74.7ms)
+  Rendered groups/index.html.haml within layouts/application (91.8ms)
+  Rendered layouts/_notifications.html.haml (3.9ms)
+Completed 200 OK in 645ms (Views: 602.0ms | ActiveRecord: 17.0ms)
+
+
+Started GET "/groups/new" for 127.0.0.1 at 2019-01-27 18:44:20 +0900
+Processing by GroupsController#new as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering groups/new.html.haml within layouts/application
+  Rendered groups/_form.html.haml (30.7ms)
+  Rendered groups/new.html.haml within layouts/application (37.3ms)
+  Rendered layouts/_notifications.html.haml (1.6ms)
+Completed 200 OK in 106ms (Views: 86.7ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/users?keyword=d" for 127.0.0.1 at 2019-01-27 18:44:23 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"d"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%d%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (6.8ms)
+Completed 200 OK in 23ms (Views: 18.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users?keyword=" for 127.0.0.1 at 2019-01-27 18:44:24 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>""}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.5ms)
+Completed 200 OK in 18ms (Views: 12.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users?keyword=o" for 127.0.0.1 at 2019-01-27 18:44:26 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"o"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%o%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.6ms)
+Completed 200 OK in 19ms (Views: 14.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users?keyword=oa" for 127.0.0.1 at 2019-01-27 18:44:27 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"oa"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%oa%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.2ms)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users?keyword=o" for 127.0.0.1 at 2019-01-27 18:44:27 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"o"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%o%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.4ms)
+Completed 200 OK in 18ms (Views: 13.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users?keyword=ok" for 127.0.0.1 at 2019-01-27 18:44:28 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"ok"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%ok%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.4ms)
+Completed 200 OK in 18ms (Views: 13.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users?keyword=oka" for 127.0.0.1 at 2019-01-27 18:44:28 +0900
+Processing by UsersController#index as JSON
+  Parameters: {"keyword"=>"oka"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 3 ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendering users/index.json.jbuilder
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE (name LIKE('%oka%')) AND (`users`.`id` != 3)[0m
+  Rendered users/index.json.jbuilder (1.5ms)
+Completed 200 OK in 18ms (Views: 13.4ms | ActiveRecord: 0.6ms)
+
+
