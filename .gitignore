@@ -8,9 +8,13 @@
 !/tmp/.keep
 /image
 /tmp
+tmp/pids/server.pid
 
 /node_modules
 /yarn-error.log
 
 .byebug_history
 public/uploads/*
+
+
+log/development.log
