@@ -80,7 +80,7 @@ $(document).on('turbolinks:load', function() {
         $.each(data, function(i, data){
           var html = buildHTML(data);
           $('.messages').append(html)
-          $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
+        $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
         })
       })
       .fail(function() {
