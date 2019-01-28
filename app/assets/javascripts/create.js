@@ -59,33 +59,31 @@ $(document).on('turbolinks:load', function() {
   })
     //自動更新
   $(function() {
-    $(function() {
-      if (location.pathname.match(/\/groups\/\d+\/messages/)) {
-        setInterval(update, 5000);
-      }
-    });
-    function update() {
-      if ($('.messages')[0]){
-        var message_id = $('.message').last().data('id');
-      } else {
-        return false
-      }
-      $.ajax ({
-        url: location.href,
-        type: 'GET',
-        data: { id: message_id },
-        dataType: 'json'
-      })
-      .done(function(data) {
-        $.each(data, function(i, data){
-          var html = buildHTML(data);
-          $('.messages').append(html)
-        $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
-        })
-      })
-      .fail(function() {
-        alert('自動更新に失敗しました');
-      })
+    if (location.pathname.match(/\/groups\/\d+\/messages/)) {
+      setInterval(update, 5000);
     }
-  })
+  });
+  function update() {
+    if ($('.messages')[0]){
+      var message_id = $('.message').last().data('id');
+    } else {
+      return false
+    }
+    $.ajax ({
+      url: location.href,
+      type: 'GET',
+      data: { id: message_id },
+      dataType: 'json'
+    })
+    .done(function(data) {
+      $.each(data, function(i, data){
+        var html = buildHTML(data);
+        $('.messages').append(html)
+      })
+      $('.messages').animate({scrollTop: $('.messages')[0].scrollHeight}, 'fast');
+    })
+    .fail(function() {
+      alert('自動更新に失敗しました');
+    })
+  }
 });
